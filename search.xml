@@ -15,7 +15,7 @@
 <p><img src="/images/100_0522.JPG"></p>
 <!-- 使用iframe嵌入本地视频 -->
 <div style="width: 640px;height: 480px;margin: 0px auto;">
-    <iframe width="640px" height="480px" src="广场舞《丁丁》meimei.mp4" frameborder="0" allowfullscreen></iframe>
+    <iframe width="640px" height="480px" src="J-20-Fighter.mp4" frameborder="0" allowfullscreen></iframe>
 </div>
 
 
