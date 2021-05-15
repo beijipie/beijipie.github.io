@@ -1,33 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Test</title>
-      <link href="2021/05/13/test/"/>
-      <url>2021/05/13/test/</url>
-      
-        <content type="html"><![CDATA[<h4 id="Abstrct"><a href="#Abstrct" class="headerlink" title="Abstrct"></a>Abstrct</h4><p>Abstrct for test。</p><span id="more"></span><h4 id="math"><a href="#math" class="headerlink" title="math"></a>math</h4><script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script><p>\(E=mc^2\)</p><p>\(\mathcal{F}(x)=\mathcal{H}(x)-x\)</p><p>$$\lim_{n\rightarrow \infty}(1+2^n+3^n)^\frac{1}{x+\sin n}$$</p><p>$$\mathcal{C}\phi \delta e \mathfrak{M}\alpha th \mathit{I}n \mathcal{H}ex\sigma \mathbb{N}o\omega!$$</p><p>$$\begin{split}<br>\frac{\partial{\mathcal{E}}}{\partial{x_l}} &amp; = \frac{\partial{\mathcal{E}}}{\partial{x_L}}\frac{\partial{x_L}}{\partial{x_l}}\\<br>&amp; = \frac{\partial{\mathcal{E}}}{\partial{x_L}}\Big(1+\frac{\partial{}}{\partial{x_l}}\sum_{i=l}^{L-1}\mathcal{F}(x_i,\mathcal{W}_i)\Big)<br>\end{split}$$</p><h4 id="创建一篇新文章或者新的页面"><a href="#创建一篇新文章或者新的页面" class="headerlink" title="创建一篇新文章或者新的页面"></a>创建一篇新文章或者新的页面</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br><span class="line">$ hexo new post <span class="built_in">test</span></span><br></pre></td></tr></table></figure><aside markdown="1">## My heading<p>Some text, some text, some more text.</p></aside><div markdown="1"><aside>## My heading<p>Some text, some text, some more text.</p></aside></div><aside><h2 id="My-heading"><a href="#My-heading" class="headerlink" title="My heading"></a>My heading</h2><p>Some text, some text, some more text.</p></aside><p><img src="example.svg"></p><h2 id="Heading"><a href="#Heading" class="headerlink" title="Heading"></a>Heading</h2><div align="center">  <img src="orchid_flower_branch_800.jpg" height="100" /></div><ul><li>bullet</li><li>list</li><li>in</li><li>markdown</li></ul><h4 id="CommonMark"><a href="#CommonMark" class="headerlink" title="CommonMark"></a>CommonMark</h4><p><a href="https://commonmark.org/help/">CommonMark</a></p><p><a href="https://www.google.ca/">Google</a></p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Image1](orchid_flower_branch_800.jpg)</span><br></pre></td></tr></table></figure><p><img src="orchid_flower_branch_800.jpg" alt="Image1"></p><p><em>Italic</em><br><strong>Bold</strong></p><h4 id="引用块"><a href="#引用块" class="headerlink" title="引用块"></a>引用块</h4><blockquote><p>Blockquote<br>文字引用</p></blockquote><ul><li>List1</li><li>List2</li><li>List3</li></ul><ol><li>One</li><li>Two</li><li>Three </li></ol><p>分割线<br>方法一：</p><hr><p>方法二：<br>+++</p><p>方法三：</p><hr><p>表格</p><table>    <tr>        <td>col11</td>        <td>col12</td>        <td>col13</td>    </tr>    <tr>        <td>col21</td>        <td>col22</td>        <td>col23</td>    </tr>    </table><p>表头1|表头2<br>|–|–|<br>内容11|内容12<br>内容21|内容22</p><p>Horizontal rule:</p><hr><ol><li>item one</li><li>item two<ul><li>sublist</li><li>sublist</li></ul></li></ol><p>代码块<br><code>行内代码</code></p><p>​<code> 多行代码1   多行代码2 ​</code></p><p><code>Inline code</code> with backticks </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># code block</span><br><span class="line">print &#x27;3 backticks or&#x27;</span><br><span class="line">print &#x27;indent 4 spaces&#x27;</span><br></pre></td></tr></table></figure><h4 id="Layout"><a href="#Layout" class="headerlink" title="Layout"></a>Layout</h4><p><del>删除线</del><br>default Hexo layout: post, page, and draft.</p><h4 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h4><p><img class="fit-picture"     src="/images/100_0522.JPG"     alt="central park"></p><h4 id="插入-audio"><a href="#插入-audio" class="headerlink" title="插入 audio"></a>插入 audio</h4><audio controls>  <source src="/audios/TheThrillIsGone_BBKing&EricClapton.mp3"></audio><!-- 嵌入第三方视频(例如:优酷视频、腾讯视频、土豆视频) --><p><embed type="video/webm"       src="https://www.ixigua.com/6867713364139704840"       width="760"       height="480"       autoplay="off"       autostart="0"></p><iframe width="760" height="480" src="https://www.youtube.com/embed/N4uxhcqypaY?list=RD3uYVYUQJbR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay="off"; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       ]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="2021/05/09/hello-world/"/>
-      <url>2021/05/09/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/05/09/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Test</title>
+    <url>/2021/05/13/test/</url>
+    <content><![CDATA[<h4 id="Abstrct"><a href="#Abstrct" class="headerlink" title="Abstrct"></a>Abstrct</h4><p>Abstrct for test。</p>
+<span id="more"></span>
+
+<h4 id="math"><a href="#math" class="headerlink" title="math"></a>math</h4><script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+<p>\(E=mc^2\)</p>
+<p>\(\mathcal{F}(x)=\mathcal{H}(x)-x\)</p>
+<p>$$\lim_{n\rightarrow \infty}(1+2^n+3^n)^\frac{1}{x+\sin n}$$</p>
+<p>$$\mathcal{C}\phi \delta e \mathfrak{M}\alpha th \mathit{I}n \mathcal{H}ex\sigma \mathbb{N}o\omega!$$</p>
+<p>$$\begin{split}<br>\frac{\partial{\mathcal{E}}}{\partial{x_l}} &amp; = \frac{\partial{\mathcal{E}}}{\partial{x_L}}\frac{\partial{x_L}}{\partial{x_l}}\\<br>&amp; = \frac{\partial{\mathcal{E}}}{\partial{x_L}}\Big(1+\frac{\partial{}}{\partial{x_l}}\sum_{i=l}^{L-1}\mathcal{F}(x_i,\mathcal{W}_i)\Big)<br>\end{split}$$</p>
+<h4 id="创建一篇新文章或者新的页面"><a href="#创建一篇新文章或者新的页面" class="headerlink" title="创建一篇新文章或者新的页面"></a>创建一篇新文章或者新的页面</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br><span class="line">$ hexo new post <span class="built_in">test</span></span><br></pre></td></tr></table></figure>
+<aside markdown="1">
+## My heading
+
+<p>Some text, some text, some more text.</p>
+</aside>
+
+<div markdown="1">
+<aside>
+## My heading
+
+<p>Some text, some text, some more text.</p>
+</aside>
+</div>
+
+<aside>
+
+<h2 id="My-heading"><a href="#My-heading" class="headerlink" title="My heading"></a>My heading</h2><p>Some text, some text, some more text.</p>
+</aside>
+
+<p><img src="example.svg"></p>
+<h2 id="Heading"><a href="#Heading" class="headerlink" title="Heading"></a>Heading</h2><div align="center">
+  <img src="https://live.staticflickr.com/65535/51181832239_d9eb37336e_b.jpg" height="100" />
+
+</div>
+
+<ul>
+<li>bullet</li>
+<li>list</li>
+<li>in</li>
+<li>markdown</li>
+</ul>
+<h4 id="CommonMark"><a href="#CommonMark" class="headerlink" title="CommonMark"></a>CommonMark</h4><p><a href="https://commonmark.org/help/">CommonMark</a></p>
+<p><a href="https://www.google.ca/">Google</a></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">![Image1](orchid_flower_branch_800.jpg)</span><br></pre></td></tr></table></figure>
+<p><img src="https://live.staticflickr.com/65535/51181255543_08dfe5d5a8_b.jpg" alt="Image1"></p>
+<p><em>Italic</em><br><strong>Bold</strong></p>
+<h4 id="引用块"><a href="#引用块" class="headerlink" title="引用块"></a>引用块</h4><blockquote>
+<p>Blockquote<br>文字引用</p>
+</blockquote>
+<ul>
+<li>List1</li>
+<li>List2</li>
+<li>List3</li>
+</ul>
+<ol>
+<li>One</li>
+<li>Two</li>
+<li>Three </li>
+</ol>
+<p>分割线<br>方法一：</p>
+<hr>
+<p>方法二：<br>+++</p>
+<p>方法三：</p>
+<hr>
+<p>表格</p>
+<table>
+    <tr>
+        <td>col11</td>
+        <td>col12</td>
+        <td>col13</td>
+    </tr>
+    <tr>
+        <td>col21</td>
+        <td>col22</td>
+        <td>col23</td>
+    </tr>    
+</table>
+
+<p>表头1|表头2<br>|–|–|<br>内容11|内容12<br>内容21|内容22</p>
+<p>Horizontal rule:</p>
+<hr>
+<ol>
+<li>item one</li>
+<li>item two<ul>
+<li>sublist</li>
+<li>sublist</li>
+</ul>
+</li>
+</ol>
+<p>代码块<br><code>行内代码</code></p>
+<p>​<code> 多行代码1   多行代码2 ​</code></p>
+<p><code>Inline code</code> with backticks </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># code block</span><br><span class="line">print &#x27;3 backticks or&#x27;</span><br><span class="line">print &#x27;indent 4 spaces&#x27;</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="Layout"><a href="#Layout" class="headerlink" title="Layout"></a>Layout</h4><p><del>删除线</del><br>default Hexo layout: post, page, and draft.</p>
+<h4 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h4><p><img class="fit-picture"
+     src="https://live.staticflickr.com/65535/51180348907_f0c048a8db_b.jpg"
+     alt="Calgary"></p>
+<h4 id="插入-audio"><a href="#插入-audio" class="headerlink" title="插入 audio"></a>插入 audio</h4><audio controls>
+  <source src="/audios/TheThrillIsGone_BBKing&EricClapton.mp3">
+</audio>
+
+
+<!-- 嵌入第三方视频(例如:优酷视频、腾讯视频、土豆视频) -->
+<p><embed type="video/webm"
+       src="https://www.ixigua.com/6867713364139704840"
+       width="760"
+       height="480"
+       autoplay="off"
+       autostart="0"></p>
+<iframe width="760" height="480" src="https://www.youtube.com/embed/N4uxhcqypaY?list=RD3uYVYUQJbR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay="off"; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
+
+
+
+
+]]></content>
+  </entry>
 </search>
